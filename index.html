@@ -12,9 +12,9 @@
       <h2 id="logo">Jerry Shi</h2>
       <ul class="navigation-items">
         <li class="navigation-item"><a href="#about-me">About Me</a></li>
-        <li class="navigation-item"><a href="#projects">Projects</a></li>
-        <li class="navigation-item"><a href="#skills">Skills</a></li>
-        <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+        <li class="navigation-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="navigation-item"><a href="#current-projects">Current Projects</a></li>
+        <li class="navigation-item"><a href="#contact">Contact</a></li>
       </ul>
     </nav>
 
@@ -50,25 +50,81 @@
         </div>
       </section>
 
-      <section id="projects">
-        <h2>Projects</h2>
+      <section id="portfolio">
+        <h2>Portfolio</h2>
         <details class="project">
           <summary class="project-title">
-            <h3>Schelling's Model of Housing Segregation (In Progress)</h3>
+            <h3>Creatorverse</h3>
           </summary>
           <img
-            src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Schellings.gif"
+            src="walkthrough - creatorverse.gif"
+            alt="GIF showing walkthrough of creatorverse"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a href="https://github.com/jerrashi/creatorverse">Repo link</a>
+            A CRUD app for you to keep track of your favorite creators. Built using Supabase, Express, React, and 
+            Node.js. Practiced using React Router and learned how to use Supabase, a backend as a service, for API calls.
+          </p>
+          <div id="skills-container">
+            <i class="fab fa-html5" alt="HTML 5"></i>
+            <i class="fab fa-css3-alt" alt = "CSS3"></i>
+            <i class="fab fa-js" alt = "Javascript"></i>
+            <i class="fab fa-react" alt = "React"></i>
+            <i class="fab fa-node" alt = "node.js"></i>
+            <i class="fab fa-npm" alt = "npm"></i>
+            <i class="fab fa-github" alt = "github"></i>
+          </div>
+        </details>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Schelling's Model of Housing Segregation</h3>
+          </summary>
+          <img
+            src="walkthrough - schelling.gif"
             alt="GIF showing individual movement across time in Schellings Model"
             class="project-image"
           />
           <p class="project-description">
             <a href="https://github.com/jerrashi/schelling_simulation">Repo link</a>
-            One of the first models in the social sciences to show how individual agent choices and weak preferences for homogeneity can lead to segregation. Built using Flask to create an interactive online visualization.
+            One of the first models in the social sciences to show how individual agent choices and weak preferences for 
+            homogeneity can lead to segregation. Built using HTML, CSS, and Javascript. Practiced using HTML forms and 
+            manipulating the DOM with Javascript.
           </p>
+          <div id="skills-container">
+            <i class="fab fa-html5" alt="HTML 5"></i>
+            <i class="fab fa-css3-alt" alt = "CSS3"></i>
+            <i class="fab fa-js" alt = "Javascript"></i>
+            <i class="fab fa-github" alt = "github"></i>
+          </div>
         </details>
         <details class="project">
           <summary class="project-title">
-            <h3>Diversity in Silicon Valley (Mockup)</h3>
+            <h3>Investments Jupyter Notebook</h3>
+          </summary>
+          <img
+            src="walkthrough - investments notebook.gif"
+            alt="GIF showing walkthrough of investments notebook"
+            class="project-image"
+          />
+          <p class="project-description">
+            <a href="https://github.com/jerrashi/Investments-CoLab-Notebooks">Repo link</a>
+            A Jupyter Notebook that uses the pandas and matplotlib libraries to perform mathematical analysis of assets for an
+            Investments course. Built using Python. Practiced using LaTeX and Python libraries. Learned how to use Google CoLabs, 
+            a cloud-based Jupyter Notebook service.
+          </p>
+          <div id="skills-container">
+            <i class="fab fa-google" alt="Google CoLab"></i>
+            <i class="fab fa-python" alt = "Python"></i>
+          </div>
+        </details>
+      </section>
+
+      <section id="current-projects">
+        <h2>Current Projects</h2>
+        <details class="project">
+          <summary class="project-title">
+            <h3>Diversity in Silicon Valley</h3>
           </summary>
           <img
             src="https://www.tibco.com/sites/tibco/files/media_entity/2022-01/TreemapChart-01.svg"
@@ -76,24 +132,18 @@
             class="project-image"
           />
           <p class="project-description">
-            For me next project, I will be creating an online visualization of diversity in Silicon Valley using Bootstrap and React. I will practice using tree data structures.
+            I want to create an online visualization of diversity in Silicon Valley with an area map. In particular, I am using a trees structed data source to practice my data structures and React/React Router to cement learnings.
           </p>
         </details>
       </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <div id="skills-container">
-          <i class="fab fa-html5" alt="HTML 5"></i>
-          <i class="fab fa-css3-alt" alt = "CSS3"></i>
-          <i class="fab fa-js" alt = "Javascript"></i>
-          <i class="fab fa-react" alt = "React"></i>
-          <i class="fab fa-figma" alt = "Figma"></i>
-          <i class="fab fa-git" alt = "Git"></i>
-          <i class="fas fa-terminal" alt = "Terminal"></i>
-          <i class="fab fa-npm" alt = "npm"></i>
-          <i class="fab fa-node" alt = "node.js"></i>
-          <i class="fab fa-github" alt = "github"></i>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Have an interesting project? I would love to hear about it! I have linkedin, github, and email</p>
+        <div>
+          <a href="https://www.linkedin.com/in/jerry-lee-shi"><i class="fab fa-linkedin icon"></i></a>
+          <a href="https://github.com/jerrashi"><i class="fab fa-github icon"></i></a>
+          <a href="email:jerryshi25@gmail.com"><i class="fas fa-envelope-square icon"></i></a>
         </div>
       </section>
     </main>
