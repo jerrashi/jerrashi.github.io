@@ -25,6 +25,7 @@ The following **stretch** features are planned:
 
 - [ ] Converting page to a full stack web app with viewProject pages tagged by skill
 - [ ] Adding a blog section to chronicle my learning jearning
+- [ ] Updating CSS styling so skills icons are not stretched when there are <3 and alt-text shows on hover
 
 
 ## Video Walkthrough
